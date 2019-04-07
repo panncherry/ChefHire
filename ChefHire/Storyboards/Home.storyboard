@@ -180,7 +180,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ABY-Ji-4lc"/>
                     </view>
-                    <navigationItem key="navigationItem" id="WSC-SO-AYi"/>
+                    <navigationItem key="navigationItem" id="WSC-SO-AYi">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="B6L-KB-OEF"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zjM-eo-jPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

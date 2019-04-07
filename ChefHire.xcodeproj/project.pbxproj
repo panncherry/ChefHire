@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084A986B2258781C0086428A /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084A986A2258781C0086428A /* GradientBackground.swift */; };
+		084A98712259938E0086428A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084A98702259938E0086428A /* Home.storyboard */; };
 		08F38D122257027200B894F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F38D112257027200B894F0 /* AppDelegate.swift */; };
 		08F38D142257027200B894F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F38D132257027200B894F0 /* ViewController.swift */; };
 		08F38D172257027200B894F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F38D152257027200B894F0 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		084A986A2258781C0086428A /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		084A98702259938E0086428A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		08F38D0E2257027200B894F0 /* ChefHire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefHire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F38D112257027200B894F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08F38D132257027200B894F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +93,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084A987222599FB50086428A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				08F38D132257027200B894F0 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		084A987322599FC30086428A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				08F38D152257027200B894F0 /* Main.storyboard */,
+				084A98702259938E0086428A /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		084A987422599FE80086428A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				084A986A2258781C0086428A /* GradientBackground.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		084A98752259A04E0086428A /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
 		08F38D052257027200B894F0 = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				08F38D112257027200B894F0 /* AppDelegate.swift */,
-				08F38D132257027200B894F0 /* ViewController.swift */,
-				08F38D152257027200B894F0 /* Main.storyboard */,
+				084A98752259A04E0086428A /* Modals */,
+				084A987422599FE80086428A /* Views */,
+				084A987222599FB50086428A /* ViewControllers */,
+				084A987322599FC30086428A /* Storyboards */,
 				08F38D182257027400B894F0 /* Assets.xcassets */,
 				08F38D1A2257027400B894F0 /* LaunchScreen.storyboard */,
 				08F38D1D2257027400B894F0 /* Info.plist */,
@@ -152,7 +190,6 @@
 				7989F490E0120F97AFD10844 /* Pods-ChefHireUITests.debug.xcconfig */,
 				D73D3507FA42DE093D0D2812 /* Pods-ChefHireUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -274,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				084A98712259938E0086428A /* Home.storyboard in Resources */,
 				08F38D1C2257027400B894F0 /* LaunchScreen.storyboard in Resources */,
 				08F38D192257027400B894F0 /* Assets.xcassets in Resources */,
 				08F38D172257027200B894F0 /* Main.storyboard in Resources */,
@@ -396,6 +434,7 @@
 			files = (
 				08F38D142257027200B894F0 /* ViewController.swift in Sources */,
 				08F38D122257027200B894F0 /* AppDelegate.swift in Sources */,
+				084A986B2258781C0086428A /* GradientBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
