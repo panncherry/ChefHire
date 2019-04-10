@@ -9,8 +9,16 @@
 /* Begin PBXBuildFile section */
 		084A986B2258781C0086428A /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084A986A2258781C0086428A /* GradientBackground.swift */; };
 		084A98712259938E0086428A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084A98702259938E0086428A /* Home.storyboard */; };
+		0855B197225D6B920080E3E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855B196225D6B920080E3E0 /* HomeViewController.swift */; };
+		0855B199225D6BDA0080E3E0 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855B198225D6BDA0080E3E0 /* RatingViewController.swift */; };
+		0855B19B225D6C140080E3E0 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855B19A225D6C140080E3E0 /* NotificationsViewController.swift */; };
+		0855B19D225D6C3B0080E3E0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855B19C225D6C3B0080E3E0 /* ProfileViewController.swift */; };
+		0855B19F225D6C790080E3E0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0855B19E225D6C790080E3E0 /* ChatViewController.swift */; };
+		08D1DD50225D69C400D35AEE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1DD4F225D69C400D35AEE /* LogInViewController.swift */; };
+		08D1DD52225D6A0200D35AEE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1DD51225D6A0200D35AEE /* SignUpViewController.swift */; };
+		08D1DD54225D6A5100D35AEE /* SignInWithEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1DD53225D6A5100D35AEE /* SignInWithEmailViewController.swift */; };
+		08D1DD56225D6A8200D35AEE /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D1DD55225D6A8200D35AEE /* PasswordResetViewController.swift */; };
 		08F38D122257027200B894F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F38D112257027200B894F0 /* AppDelegate.swift */; };
-		08F38D142257027200B894F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F38D132257027200B894F0 /* ViewController.swift */; };
 		08F38D172257027200B894F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F38D152257027200B894F0 /* Main.storyboard */; };
 		08F38D192257027400B894F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F38D182257027400B894F0 /* Assets.xcassets */; };
 		08F38D1C2257027400B894F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F38D1A2257027400B894F0 /* LaunchScreen.storyboard */; };
@@ -41,9 +49,17 @@
 /* Begin PBXFileReference section */
 		084A986A2258781C0086428A /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		084A98702259938E0086428A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0855B196225D6B920080E3E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0855B198225D6BDA0080E3E0 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		0855B19A225D6C140080E3E0 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		0855B19C225D6C3B0080E3E0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0855B19E225D6C790080E3E0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		08D1DD4F225D69C400D35AEE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		08D1DD51225D6A0200D35AEE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		08D1DD53225D6A5100D35AEE /* SignInWithEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmailViewController.swift; sourceTree = "<group>"; };
+		08D1DD55225D6A8200D35AEE /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 		08F38D0E2257027200B894F0 /* ChefHire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefHire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F38D112257027200B894F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08F38D132257027200B894F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08F38D162257027200B894F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08F38D182257027400B894F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08F38D1B2257027400B894F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,7 +112,15 @@
 		084A987222599FB50086428A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				08F38D132257027200B894F0 /* ViewController.swift */,
+				08D1DD4F225D69C400D35AEE /* LogInViewController.swift */,
+				08D1DD51225D6A0200D35AEE /* SignUpViewController.swift */,
+				08D1DD53225D6A5100D35AEE /* SignInWithEmailViewController.swift */,
+				08D1DD55225D6A8200D35AEE /* PasswordResetViewController.swift */,
+				0855B196225D6B920080E3E0 /* HomeViewController.swift */,
+				0855B198225D6BDA0080E3E0 /* RatingViewController.swift */,
+				0855B19A225D6C140080E3E0 /* NotificationsViewController.swift */,
+				0855B19C225D6C3B0080E3E0 /* ProfileViewController.swift */,
+				0855B19E225D6C790080E3E0 /* ChatViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -432,8 +456,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F38D142257027200B894F0 /* ViewController.swift in Sources */,
+				0855B19B225D6C140080E3E0 /* NotificationsViewController.swift in Sources */,
+				08D1DD50225D69C400D35AEE /* LogInViewController.swift in Sources */,
+				0855B19F225D6C790080E3E0 /* ChatViewController.swift in Sources */,
+				0855B19D225D6C3B0080E3E0 /* ProfileViewController.swift in Sources */,
+				0855B199225D6BDA0080E3E0 /* RatingViewController.swift in Sources */,
+				08D1DD56225D6A8200D35AEE /* PasswordResetViewController.swift in Sources */,
 				08F38D122257027200B894F0 /* AppDelegate.swift in Sources */,
+				08D1DD52225D6A0200D35AEE /* SignUpViewController.swift in Sources */,
+				08D1DD54225D6A5100D35AEE /* SignInWithEmailViewController.swift in Sources */,
+				0855B197225D6B920080E3E0 /* HomeViewController.swift in Sources */,
 				084A986B2258781C0086428A /* GradientBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

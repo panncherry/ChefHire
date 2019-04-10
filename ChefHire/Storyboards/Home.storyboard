@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Rating View Controller-->
         <scene sceneID="Nab-fh-Ick">
             <objects>
-                <viewController id="Dhx-T5-7fB" sceneMemberID="viewController">
+                <viewController id="Dhx-T5-7fB" customClass="RatingViewController" customModule="ChefHire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6cb-bj-uEV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="2322" y="777"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="LM3-PE-UZf">
             <objects>
-                <viewController id="pab-Xb-YZf" sceneMemberID="viewController">
+                <viewController id="pab-Xb-YZf" customClass="ChatViewController" customModule="ChefHire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fX3-21-6Cs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="2999" y="1507"/>
         </scene>
-        <!--View Controller-->
+        <!--Notifications View Controller-->
         <scene sceneID="Ztq-Vf-eL2">
             <objects>
-                <viewController id="7kW-wx-CjT" sceneMemberID="viewController">
+                <viewController id="7kW-wx-CjT" customClass="NotificationsViewController" customModule="ChefHire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="18g-a4-YTh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,10 +103,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="1506.6964285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="hWI-3G-J22">
             <objects>
-                <viewController id="564-1R-PAl" sceneMemberID="viewController">
+                <viewController id="564-1R-PAl" customClass="HomeViewController" customModule="ChefHire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vpP-DQ-Psd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,10 +155,10 @@
             </objects>
             <point key="canvasLocation" x="858" y="777"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="1tJ-9t-3Vh">
             <objects>
-                <viewController id="7Fa-ec-Qi0" sceneMemberID="viewController">
+                <viewController id="7Fa-ec-Qi0" customClass="ProfileViewController" customModule="ChefHire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="63u-Vm-kjj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
