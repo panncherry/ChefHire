@@ -7,6 +7,8 @@ target 'ChefHire' do
 
   # Pods for ChefHire
 	pod 'Parse'
+    pod 'Alamofire'
+    pod 'AlamofireImage'
 
   target 'ChefHireTests' do
     inherit! :search_paths
